@@ -1,5 +1,20 @@
 # Changelog
 
+## 5.6.0 (2025-05-21)
+
+Full Changelog: [v5.5.0...v5.6.0](https://github.com/cloudflare/terraform-provider-cloudflare/compare/v5.5.0...v5.6.0)
+
+### Features
+
+* **api:** api update ([132d68b](https://github.com/cloudflare/terraform-provider-cloudflare/commit/132d68b665e45629c75e1927ecd3d73a04b4ab60))
+* **api:** api update ([b3d0899](https://github.com/cloudflare/terraform-provider-cloudflare/commit/b3d0899d62ad76a8951d4f146c887c0818743869))
+* **api:** api update ([2a22d2d](https://github.com/cloudflare/terraform-provider-cloudflare/commit/2a22d2d71a25b7391ab0a973c092a3bfd08337a6))
+
+
+### Chores
+
+* **ci:** only run known working resources for acceptance tests ([#5610](https://github.com/cloudflare/terraform-provider-cloudflare/issues/5610)) ([7ed8beb](https://github.com/cloudflare/terraform-provider-cloudflare/commit/7ed8bebf608876698126145f8482b48ac5b7eaf0))
+
 ## 5.5.0 (2025-05-19)
 
 Full Changelog: [v5.4.0...v5.5.0](https://github.com/cloudflare/terraform-provider-cloudflare/compare/v5.4.0...v5.5.0)
