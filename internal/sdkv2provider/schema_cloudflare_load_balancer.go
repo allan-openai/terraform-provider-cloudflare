@@ -464,7 +464,6 @@ var (
 						"pop_pools": {
 							Type:        schema.TypeSet,
 							Optional:    true,
-							Computed:    true,
 							Elem:        loadBalancerOverridesPopPoolElem,
 							Description: "A set containing mappings of Cloudflare Point-of-Presence (PoP) identifiers to a list of pool IDs (ordered by their failover priority) for the PoP (datacenter). This feature is only available to enterprise customers.",
 						},
@@ -472,7 +471,6 @@ var (
 						"country_pools": {
 							Type:        schema.TypeSet,
 							Optional:    true,
-							Computed:    true,
 							Elem:        loadBalancerOverridesCountryPoolElem,
 							Description: "A set containing mappings of country codes to a list of pool IDs (ordered by their failover priority) for the given country.",
 						},
@@ -480,7 +478,6 @@ var (
 						"region_pools": {
 							Type:        schema.TypeSet,
 							Optional:    true,
-							Computed:    true,
 							Elem:        loadBalancerOverridesRegionPoolElem,
 							Description: "A set containing mappings of region codes to a list of pool IDs (ordered by their failover priority) for the given region.",
 						},
